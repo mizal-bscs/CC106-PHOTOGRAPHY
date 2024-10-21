@@ -5,7 +5,7 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background: url("ajlogo.jpg");
+    background-image: linear-gradient(115deg,#abcab3,#fad648,#36e671,#ee2a2a,#f09218);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -173,13 +173,7 @@ header{
     display: flex;
     gap: 5px;
 }
-.two label a{
-    text-decoration: none;
-    color: #0c0c0c;
-}
-.two label a:hover{
-    text-decoration: underline;
-}
+
 @media only screen and (max-width: 786px){
     .nav-button{
         display: none;

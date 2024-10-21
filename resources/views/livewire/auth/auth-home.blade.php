@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
     <!-- Linking SwiperJS CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <body>
   <nav>
@@ -75,5 +76,23 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <!-- Linking custom script -->
   <script src="../../../dist/js/homepage.js"></script>
+  <footer>
+    <div class="footerContainer">
+        <div class="socialIcons">
+            <a href="https://www.facebook.com/ajsolerophotography"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/ajsolerophotography/?fbclid=IwY2xjawGDKFRleHRuA2FlbQIxMAABHY_qgFKqo1nTaCoWNNR49sANKmKDP5sTvYaiKlbIcMBjpgQaC_xJcwyxwg_aem_HpSvnrGK19MDPoeSSBVLwA"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.tiktok.com%2F%40ajsolero%3F_t%3D8qjGY819O1R%26_r%3D1%26fbclid%3DIwZXh0bgNhZW0CMTAAAR2XKVbrg6ML3n82-dJ_HvsKnIzeVUCJHFq_rbdSKYhK_mbm_o_nmZo10XY_aem_D9HhcjeIG9q62L1V10pp7A&h=AT2ncc_8TBQb5-ZUL6ocfgAPmfptr8Wn5qKZSZ_E2-OvmyLmN0EpQ9oPH7FAwFGHshdZIp3rzpzJnGW96gXxMhMafmf_4M6qCz4ocnPIxjHy4_e-pNufy-Fmtd7zzKCOPBolUg"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fyoutube.com%2F%40HappyIslanderTV%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR2XKVbrg6ML3n82-dJ_HvsKnIzeVUCJHFq_rbdSKYhK_mbm_o_nmZo10XY_aem_D9HhcjeIG9q62L1V10pp7A&h=AT0sZWD2_5gRFZDTIM-GTMb6_RJe1nklyH8HmKDaXjppET5JJeGraWmXAZfn4lqO9D_I7d96fCavEza3Z6d4TRHbxWCbQRZGeKh2_JW4X_AuXS1ngTcPR1GX6juJkfp3NX1F"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="footerNav">
+            <ul><li><a href="{{ route('home') }}">Home</a></li>
+                <li><a href="{{ route('about') }}">About</a></li>
+                <li><a href="{{ route('contact') }}">Contact Us</a></li>
+            </ul>
+        </div>
+        
+    </div>
+  
+</footer>
 </body>
 </div>
